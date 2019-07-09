@@ -1,0 +1,11 @@
+/* .container__bio {
+    display: flex;
+} */
+
+.image--left {
+    width: 70%;
+}
+
+.family__img img {
+    width: 30%;
+}
