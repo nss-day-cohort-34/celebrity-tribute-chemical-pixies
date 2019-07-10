@@ -1,28 +1,28 @@
-.photo--main {
-    align-self: left;
-    width: 50%;
+.container__bio {
+    display: flex;
+    align-items: center;
 }
 
-.bio__details {
-    display: inline-block;
-    justify-content: center;
-    flex-direction: column;
-    width: 46%;
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+    align-self: center;
 }
 
 .image--left {
-    width: 70%;
-}
-figcaption {
-    text-align: start;
-    padding: 0 0 0 5px;
-}
-
-.family__img img {
-    height: 30%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    width: 100%;
 }
 
 .image__section {
@@ -34,7 +34,18 @@ figcaption {
 
 .container__family {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    align-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.family__img img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+ul {
+    list-style-type: none;
 }
