@@ -1,0 +1,28 @@
+h1 {
+    padding-bottom: 25px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.image--Rihanna {
+    width:550px;
+    height: 360px;
+}
+.wrapper {
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+    /* dd {
+        margin: 0;
+        display: inline;
+      }
+      
+      dt {
+         display: inline-block;
+        margin: 0 5px 5px 0;
+      } */
