@@ -13,20 +13,6 @@
 .image--left {
     width: 70%;
 }
-
-.section__heading {
-text-align: center;    
-}
-
-
-
-.container__family {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: stretch;
-}
-
 figcaption {
     text-align: start;
     padding: 0 0 0 5px;
@@ -44,3 +30,11 @@ figcaption {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+}
+
+.container__family {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+}
