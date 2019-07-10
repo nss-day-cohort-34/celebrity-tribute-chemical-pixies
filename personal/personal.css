@@ -1,7 +1,7 @@
-/* .container__bio {
+.container__bio {
     display: flex;
     align-items: center;
-} */
+}
 
 .row {
     display: flex;
@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-/* .image__section {
+.image__section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,13 +39,13 @@
     flex-wrap: wrap;
 }
 
-.family__img {
-    width: 30%;
+.family__img img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 500px;
 }
 
-.family__img img {
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-} */
+ul {
+    list-style-type: none;
+}
