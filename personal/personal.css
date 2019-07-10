@@ -3,6 +3,11 @@
     align-items: center;
 }
 
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
 .row {
     display: flex;
 }
@@ -19,6 +24,8 @@
 .right {
     width: 40%;
     align-self: center;
+    font-size: 24px;
+    line-height: 150%;
 }
 
 .image--left {

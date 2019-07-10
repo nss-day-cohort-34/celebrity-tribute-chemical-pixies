@@ -2,7 +2,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(214, 200, 200);
-    background-image: linear-gradient(rgba(3, 3, 3, 0.774), transparent 80%), linear-gradient(0deg, grey, transparent), url("https://data.whicdn.com/images/232687068/large.jpg");;
+    background-image: linear-gradient(rgba(3, 3, 3, 0.774), transparent 80%), linear-gradient(0deg, grey, transparent), url("https://data.whicdn.com/images/232687068/large.jpg");
  }
 
 header {
@@ -21,6 +21,7 @@ main {
      list-style: none;
      justify-content: space-evenly;
      font-family: 'Questrial', sans-serif;
+     font-size: 20px;
  }
 
  .navBar {
