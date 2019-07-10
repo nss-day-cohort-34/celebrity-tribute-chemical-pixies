@@ -1,31 +1,31 @@
-.photo--main {
-    align-self: left;
-    width: 50%;
+/* .container__bio {
+    display: flex;
+    align-items: center;
+} */
+
+.row {
+    display: flex;
 }
 
-.bio__details {
-    display: inline-block;
-    justify-content: center;
-    flex-direction: column;
-    width: 46%;
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+    align-self: center;
 }
 
 .image--left {
-    width: 70%;
-}
-figcaption {
-    text-align: start;
-    padding: 0 0 0 5px;
+    width: 100%;
 }
 
-.family__img img {
-    height: 30%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
-.image__section {
+/* .image__section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,7 +34,18 @@ figcaption {
 
 .container__family {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    align-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.family__img {
+    width: 30%;
+}
+
+.family__img img {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} */
