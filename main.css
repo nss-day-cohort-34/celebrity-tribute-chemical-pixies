@@ -1,0 +1,54 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(214, 200, 200);
+    background-image: linear-gradient(rgba(3, 3, 3, 0.774), transparent 80%), linear-gradient(0deg, grey, transparent), url("https://data.whicdn.com/images/232687068/large.jpg");;
+ }
+
+header {
+    font-family: 'Notable', sans-serif;
+    font-size: 110px;
+}
+
+main {
+    /* width: 80%; */
+    font-family: 'Questrial', sans-serif;
+}
+
+
+ .nav {
+     display: flex;
+     list-style: none;
+     justify-content: space-evenly;
+     font-family: 'Questrial', sans-serif;
+ }
+
+ .navBar {
+     border: 5px solid rgb(214, 200, 200)
+ }
+
+ .social-media__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Questrial', sans-serif;
+ }
+
+ /* unvisited link */
+a:link {
+    color: rgb(214, 200, 200);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(214, 200, 200);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(124, 45, 45);
+  }
+
+  img {
+    border-radius: 30px;
+  }
